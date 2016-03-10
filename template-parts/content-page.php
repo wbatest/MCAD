@@ -21,7 +21,7 @@
 			  $posts = get_posts(array(
 		        'numberposts' => -1,
 		        'category' => 5,
-		      'post_type' => 'team_member',
+		      'post_type' => 'cabins',
 		    ));
 
 			wp_link_pages( array(
