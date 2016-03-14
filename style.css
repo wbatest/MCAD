@@ -289,6 +289,16 @@ h1 {
 	font-family: 'Arvo', serif;
 	font-size: 2em;
 }
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
 
 p {
 	margin-bottom: 1.5em;
@@ -599,6 +609,14 @@ ul.menu-header-menu-container {
   background: rgba(0, 0, 0, 0.61);
   padding: 0;
 }
+.single-cabins .site-info {
+	  z-index: 5;
+  position: absolute;
+  top: 1029px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.61);
+  padding: 0;
+}
 .site-info p {
 	padding-right: 20px;
 }
@@ -820,22 +838,81 @@ a:active {
 /*--------------------------------------------------------------
 # Cabins Page
 --------------------------------------------------------------*/
-#cabin-image {
+#cabin-background {
 	position: absolute;
 	top: 0;
 	right: 0;
-	height: 850px;
+	height: 1110px;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: -1;
 }
 #cabin-1 {
+	padding: 50px;
+}
+img#main-image {
+	width: 100%;
+	/*padding-right: 30px;*/
+}
+#cabins {
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	top: 155px;
+	height: 770px;
+}
+.cabin-images {
+	float: left;
+	width: 66.66%;
+	padding-right: 60px;
+}
+.cabin-images ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.cabin-images li {
+	float: right;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.cabin-images img {
+	width: 75px;
+	height: auto;
+}
+.cabin-description {
+	float: left;
+	width: 33.33%;
+}
+.cabin-description h2 {
+	margin-top: 0;
+}
+.cabin-description h3 {
+	margin-bottom: 0;
+}
+.cabin-description ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.cabin-description a {
+	color: #237019;
+}
+#cabin-button {
+	background-color: #3F8137;
+	border: 1px solid #999;
+	padding: 10px;
+}
+a#cabin-button {
+	color: #fff;
+}
+/*#cabin-1 {
 	position: absolute;
 	top: 220px;
 	left: 0;
 	background-color: #fff;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Gallery Page
